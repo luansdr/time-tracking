@@ -1,0 +1,19 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: none;
+    cursor: pointer;
+
+    &.btn-primary {
+        color: var(--black-010);
+        background-color: var(--primary);
+
+        &:hover{
+            background: var(--primary-010);
+            color: var(--white);
+        }
+    }
+
+}
